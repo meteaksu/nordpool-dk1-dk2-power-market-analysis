@@ -30,7 +30,10 @@ By synchronizing 5-minute real-time wind telemetry with hourly spot market data 
    cd nordpool-dk1-dk2-power-market-analysis
 
    Install required dependencies:
+   pip install pandas numpy matplotlib statsmodels
+   jupyter notebook DK1_DK2.ipynb
+   
 
-pip install pandas numpy matplotlib statsmodels
 
-jupyter notebook DK1_DK2.ipynb
+
+
