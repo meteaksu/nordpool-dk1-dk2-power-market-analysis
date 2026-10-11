@@ -23,8 +23,14 @@ By synchronizing 5-minute real-time wind telemetry with hourly spot market data 
 ---
 
 ## How to Run
+
 1. Clone this repository:
    ```bash
    git clone [https://github.com/meteaksu/nordpool-dk1-dk2-power-market-analysis.git](https://github.com/meteaksu/nordpool-dk1-dk2-power-market-analysis.git)
+   cd nordpool-dk1-dk2-power-market-analysis
 
-   pip install pandas numpy matplotlib
+   Install required dependencies:
+
+pip install pandas numpy matplotlib statsmodels
+
+jupyter notebook DK1_DK2.ipynb
